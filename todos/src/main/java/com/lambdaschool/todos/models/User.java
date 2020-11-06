@@ -173,4 +173,9 @@ public class User extends Auditable
     public void setTodos(List<Todo> todos) {
         this.todos = todos;
     }
+
+
+    public void addTodo(Todo newTodo) {
+        todos.add(newTodo);
+    }
 }
